@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:beige;
+}
+.mainBox{
+    width: 400px;
+    height: 610px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid  black;
+    background-color: black;
+    padding: 8px;
+}
+.section{
+    width: 100%;
+    height: 100px;
+    gap: 7px;
+    /* border: 1px solid black; */
+    display: flex;
+
+}
+.but{
+    width: 25%;
+    height: 90px;
+    border: 1px solid rgb(52, 47, 47);
+    border-radius: 25px;
+    background-color:rgb(49, 47, 47);
+    color: white;
+    /* box-shadow: 2px 2px 5px 2px rgb(75, 21, 21); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family:monospace;
+    font-style:italic;
+    cursor: pointer;
+    transition: 0.5s;
+    animation-name: but;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    
+}
+
+
+.but:hover{
+    background-color: rgb(8, 184, 46);
+    box-shadow: 
+    0 0 2px 0 rgba(238, 170, 51, 0.1), 
+    0 0 4px 0 rgba(238, 170, 51, 0.2), 
+    0 0 6px 0 rgba(238, 170, 51, 0.3), 
+    0 0 8px 0 rgba(238, 170, 51, 0.4),
+    0 0 12px 0 rgba(238, 170, 51, 0.5), 
+    0 0 18px 0 rgba(238, 170, 51, 0.6),
+    0 0 4px 0 rgba(238, 170, 51, 0.7);
+}
+.but1{
+    width: 50%;
+    height: 90px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-style: italic;
+    cursor: pointer;
+    
+}
+.button{
+    background-color: grey;
+}
+.button1{
+    background-color:rgb(229, 178, 10);
+}
+
+.mainBoxSection1{
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: cursive;
+    font-style: italic;
+    color:white;
+    transition: 1s;
+    animation-name: monitor;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
