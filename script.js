@@ -54,6 +54,3 @@ mainBox.addEventListener('click',(event)=>{
     }
     
 })
-
-
-
